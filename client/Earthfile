@@ -1,6 +1,6 @@
 # Earthfile
 VERSION 0.7
-FROM node:14
+FROM node:16
 
 WORKDIR /app
 
