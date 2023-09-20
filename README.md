@@ -10,6 +10,11 @@ This repository contains a sample React application, built and tested using Eart
 ## Setup
 
 1. Clone the repository:
+
+   ```bash
+   cd ~/git/sample/earthly
+   ```
+
    ```bash
    git clone [your-repository-url]
    cd earthly/client
