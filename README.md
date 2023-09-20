@@ -1,6 +1,42 @@
 # earthly
 
-sample
+This repository contains a sample React application, built and tested using Earthly.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [Earthly](https://earthly.dev/)
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone [your-repository-url]
+   cd earthly/client
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+## Building with Earthly
+
+To build the application using Earthly, run:
+
+```bash
+earthly +build
+```
+
+## Testing with Earthly
+
+To test the application using Earthly, run:
+
+```bash
+earthly +test
+```
+
+sample Earthfile
 ```
 # Earthfile
 VERSION 0.7
