@@ -36,7 +36,7 @@ To test the application using Earthly, run:
 earthly +test
 ```
 
-sample Earthfile
+## Sample Earthfile
 ```
 # Earthfile
 VERSION 0.7
